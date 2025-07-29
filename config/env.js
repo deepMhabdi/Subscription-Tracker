@@ -9,5 +9,7 @@ export const {
     JWT_SECRET,
     JWT_EXPIRES_IN,
     ARCJET_KEY,
-    ARCKET_ENV
+    ARCKET_ENV,
+    QSTASH_TOKEN,
+    QSTASH_URL
 } = process.env;
