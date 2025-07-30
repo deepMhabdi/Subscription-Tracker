@@ -14,7 +14,7 @@ export const createSubscription = async (req, res, next)=> {
             body: {
                 subscriptionId: subscription.id,
             },
-            header: {
+            headers: {
                 'content-type': 'application/json'
             },
             retries: 0,
